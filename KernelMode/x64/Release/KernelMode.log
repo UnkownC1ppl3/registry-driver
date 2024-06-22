@@ -1,0 +1,15 @@
+﻿  Building 'KernelMode' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Source.cpp
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(201,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(307,68): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(483,30): warning C4100: 'Process': unreferenced formal parameter
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(507,11): warning C4189: 'ntStatus': local variable is initialized but not referenced
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(508,13): warning C4101: 'ApcState': unreferenced local variable
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(642,40): warning C4244: 'argument': conversion from 'SIZE_T' to 'ULONG', possible loss of data
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\Source.cpp(8,9): warning C4311: '<function-style-cast>': pointer truncation from 'PVOID' to 'INT'
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\Source.cpp(8,9): warning C4302: '<function-style-cast>': truncation from 'PVOID' to 'INT'
+C:\Users\Jan\Desktop\UDRegistry\Registry\KernelMode\utils.h(329): warning C4701: potentially uninitialized local variable 'Base' used
+  KernelMode.vcxproj -> C:\Users\Jan\Desktop\UDRegistry\Registry\x64\Release\KernelMode.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  

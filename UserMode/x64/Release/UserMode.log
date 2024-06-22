@@ -1,0 +1,7 @@
+﻿  UserMode.cpp
+C:\Users\Jan\Desktop\UDRegistry\Registry\UserMode\UserMode.cpp(36,78): warning C4244: 'argument': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 81 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  UserMode.vcxproj -> C:\Users\Jan\Desktop\UDRegistry\Registry\x64\Release\UserMode.exe
