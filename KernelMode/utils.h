@@ -574,7 +574,7 @@ _Exit:
 	return STATUS_SUCCESS;
 }
 
-NTSTATUS ReadProcessMemory(HANDLE ProcessPid, PVOID Address, PVOID Buffer, SIZE_T Size)
+NTSTATUS ReadProcessMemory(HANDLE ProcessPid, PVOID Address, PVOID Buffer, SIZE_T Size) //undetected trust
 {
 	PEPROCESS Process = { 0 };
 	auto ntStatus = PsLookupProcessByProcessId(ProcessPid, &Process);
