@@ -1,5 +1,5 @@
 
-# Tags
+## Tags
 ```rust```
 ```internal```
 ```kernel```
@@ -17,15 +17,23 @@
 ```dataptr```
 ```cheatdriver```
 
-# Registry-driver
+## Registry-driver
 ```
 Some random registry driver i found on my pc no clue if its leaked or not never really looked at it and also dont need it.
 Read / Write driver
 Not Ud go change some stuff!
 ```
 
-> [!Warning]
-> PASTERALERT!!
+## Functions
+```yaml
+- Functions:
+  - Read memory
+  - Write memory
+```
+```yaml
+- Type:
+  - Registry driver
+```
 
 # Discord 
 
