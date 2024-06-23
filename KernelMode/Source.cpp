@@ -76,7 +76,7 @@ DriverEntry(
 	DbgPrintEx(0, 0, "EntryPoint: %s\n", __FUNCTION__);
 
 	// RegisterCallback
-	RtlInitUnicodeString(&MyKey, L"MyRegID");
+	RtlInitUnicodeString(&MyKey, L"MyRegID"); //ndyjan1336
 	auto Status = RegisterCallback(PEX_CALLBACK_FUNCTION(RegistryCallback), nullptr, &CmCookie);
 	if (!NT_SUCCESS(Status))
 		return Status;
