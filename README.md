@@ -21,7 +21,7 @@
 ```
 Some random registry driver i found on my pc no clue if its leaked or not never really looked at it and also dont need it.
 Read / Write driver
-Needs updating!
+Not Ud go change some stuff!
 ```
 # Discord 
 
