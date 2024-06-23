@@ -117,15 +117,28 @@ DWORD AttachProcess(std::string processName) {
 }
 
 
-//FortniteClient-Win64-Shipping.exe
-
-int main()
+int main() //ndyjan1336 was here
 {
-	ProcessPid = AttachProcess("chrome.exe");
+	ProcessPid = AttachProcess("notepad.exe"); //FortniteClient-Win64-Shipping.exe
+	std::cout << "ProcessPid: " << ProcessPid << std::endl;
 
+	if (!ProcessPid)
+		system("pause");
 
-	auto Base = GetModuleBase(L"chrome.exe");
+	auto Base = GetModuleBase(L"notepad.exe");
 	std::cout << std::hex << "Base: 0x"  << Base << std::endl;
+
+	if (!Base)
+		system("pause");
+
+	while (TRUE)
+	{
+		auto Value = ReadMemory<uint64_t>(Base + 0x77);
+		printf("Value: %llu\n", Value);
+
+		Sleep(1000);
+	}
 
 	system("pause");
 }
+
